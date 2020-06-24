@@ -21,14 +21,9 @@ Right click to open in a new window. You'll need your Workspace ID and Workspace
 
 ## Configure your Huginn installation
 
-Setup a Huginn Webhook Agent to send events to your new Function App. 
+Setup a Huginn Post Agent to send events to your new Function App. The URL should be in the format of `https://FunctionAppName.azurewebsites.net/api/Huginn`. Find this URL in the [Azure Function App Portal](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp).
 
-This should be in the format of https://FunctionAppName.azurewebsites.net/api/FunctionName<br>
-You can find this you app URL in the Azure Portal.  
-
-
-If successfully deployed you should start to see events appear in your Azure Sentinel workspace as soon as they are generated.
-If you run into issues there are a number of options for [monitoring](https://docs.microsoft.com/en-us/azure/azure-functions/functions-monitoring?tabs=cmd) and [deugging](https://docs.microsoft.com/en-us/azure/azure-functions/functions-debug-powershell-local) your Function App.
+![Example](img/new-agent.png)
 
 ---
 
