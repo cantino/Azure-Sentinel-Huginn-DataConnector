@@ -6,6 +6,8 @@ This function app will listen for Huginn webhooks and write them to Log Analytic
 
 1.  Deploy the template.
 
+Right click to open in a new window. You'll need your Workspace ID and Workspace Key. See [these instructions on how to find them](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#obtain-workspace-id-and-key).
+
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcantino%2FAzure-Sentinel-Huginn-DataConnector%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="https://aka.ms/deploytoazurebutton" />
 </a>

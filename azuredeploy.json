@@ -198,8 +198,8 @@
                         "customLogName": "[parameters('customLogName')]",
                         "workspaceID": "[parameters('workspaceID')]",
                         "workspaceKey": "[concat('@Microsoft.KeyVault(SecretUri=', reference(resourceId('Microsoft.KeyVault/vaults/secrets', parameters('FunctionName'), 'workspaceKey')).SecretUriWithVersion, ')')]", 
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/cantino/Azure-Sentinel-Huginn-DataConnector/archive/master.zip"
-                    } 
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/cantino/Azure-Sentinel-Huginn-DataConnector/raw/master/Azure-Sentinel-Huginn-DataConnector.zip"
+                    }
                 }
             ]
         },
